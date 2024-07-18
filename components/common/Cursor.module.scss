@@ -1,0 +1,12 @@
+.cursor {
+  border-radius: 100%;
+  mix-blend-mode: difference;
+}
+
+.cursorFollower {
+  border-radius: 100%;
+  left: -0.5rem;
+  top: -0.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  will-change: transform;
+}
