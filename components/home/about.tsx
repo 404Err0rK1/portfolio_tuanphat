@@ -63,16 +63,16 @@ const AboutSection = () => {
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        I take responsibility to craft a good user experience using modern
-        frontend architecture.{" "}
+        There are three responses to a piece of design - yes, no, and WOW! Wow
+        is the one to aim for{" "}
       </span>
       <span
         className={`about-2 leading-tight ${
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        There are three responses to a piece of design - yes, no, and WOW! Wow
-        is the one to aim for
+        Responsive Web Design always plays an important role whenever going to
+        promote your website.
       </span>
     </h1>
   );

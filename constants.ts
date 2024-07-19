@@ -93,13 +93,13 @@ export const PROJECTS: IProject[] = [
     tech: ["next", "typescript", "tailwind"],
   },
   {
-    name: "Refine clone",
-    image: "/projects/refine-clone.png",
+    name: "Ecommerce Shop Apple",
+    image: "/projects/ecommerce-shop-apple.png",
     blurImage: "/projects/blur/ngx-quill-upload-blur.jpg",
-    description: "Built the application from zero to production : Refine clone",
+    description: "The website is a sleek, user-friendly e-commerce platform dedicated to selling Apple’s Macbook line of laptops. ",
     gradient: ["#3A0000", "#771E1E"],
-    url: "https://refine-dashboard-swart.vercel.app/",
-    tech: ["next", "typescript", "tailwind"],
+    url: "https://github.com/404Err0rK1/Ecommerce-shop-apple.git",
+    tech: ["next", "typescript", "tailwind","mongodb"],
   },
 ];
 
@@ -141,6 +141,24 @@ export enum ItemSize {
 export const TIMELINE: Array<TimelineNodeV2> = [
   {
     type: NodeTypes.CHECKPOINT,
+    title: "2024",
+    size: ItemSize.LARGE,
+    shouldDrawLine: false,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: " FullStack Developer | Web Developer",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Accept design and development of features, components, pages, or complete websites for clients through freelancing platforms such as Vlancer, Upwork, etc.",
+    image: "/timeline/freelancer.svg",
+    slideImage: "/timeline/developer.gif",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
     title: "2023",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
@@ -148,12 +166,12 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Speaker at React India",
+    title: "Frontend  Developer | Web Developer",
     size: ItemSize.SMALL,
     subtitle:
-      "Discussed on Interaction to Next Paint (INP), a Google Core Web Vital metric",
-    image: "/timeline/reactindia.svg",
-    slideImage: "/timeline/reactindia.jpg",
+      "Accept website interface design and development for clients through freelancing platforms, acquaintances, students, vlancer, etc.",
+    image: "/timeline/freelancer.svg",
+    slideImage: "/timeline/freelancer.gif",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -165,62 +183,26 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     alignment: Branch.LEFT,
   },
   {
-    type: NodeTypes.CHECKPOINT,
-    title: "Frontend Engineer 2 (Current)",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Frontend Engineering @ Core team, solving problems around Livingroom device performance",
-    image: "/timeline/hotstar.svg",
-    slideImage: "/timeline/hotstar.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2021",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Contributed to Server driven UI framework for powering experiences @ Flipkart Wholesale 😎",
-    image: "/timeline/flipkart.svg",
-    slideImage: "/timeline/flipkart.gif",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2020",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
     type: NodeTypes.DIVERGE,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer (freelance)",
+    title: "Designer UI/UX | Editor",
     size: ItemSize.SMALL,
     subtitle:
-      "Built solutions for employee engagement, productivity and performance 🎯",
-    image: "/timeline/huminos.svg",
-    slideImage: "/timeline/huminos-freelance.jpg",
+      "Accept UX/UI website design. Video editing for businesses to serve marketing purposes for clients through freelancing platforms, acquaintances, students, vlancer, etc.",
+    image: "/timeline/freelancer.svg",
+    slideImage: "/timeline/editor.gif",
     shouldDrawLine: true,
-    alignment: Branch.RIGHT,
+    alignment: Branch.LEFT,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Motion Graphics (freelance)",
+    title: "Frontend Developer",
     size: ItemSize.SMALL,
-    subtitle: "Motion Graphics content for Product Launch 🚀",
-    image: "/timeline/octanner.svg",
-    slideImage: "/timeline/aftereffects.jpg",
+    subtitle: "Designing and developing user interface components for the dashboard of the monitoring and alerting system for incidents...",
+    image: "/timeline/HPT.png",
+    slideImage: "/timeline/HPT.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -229,183 +211,22 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2019",
+    title: "2019 - 2024",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer",
+    title: "Security Engineer",
     size: ItemSize.SMALL,
     subtitle:
       "Worked on enterprise blockchain solutions for web. Transforming UI/UX and frontend framework. Built a design system.",
-    image: "/timeline/dltlabs.svg",
-    slideImage: "/timeline/dlt-website.jpg",
+    image: "/timeline/KMA.svg",
+    slideImage: "/timeline/KMA.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "UX Engineer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "First job! 🥳 Product design and development for employee engagement chatbot suite for workplace by facebook",
-    image: "/timeline/huminos.svg",
-    slideImage: "/timeline/huminos-website.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Graduated from College 🎓",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Spent 4 years laying the foundation of Frontend Engineering, UI/UX, and Fitness!",
-    image: "/timeline/akgec.svg",
-    slideImage: "/timeline/farewell.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2018",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.DIVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Student lead at SDC-SI",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Represented a team of 39 talented developers. Served different roles of leadership, project management and delivery.",
-    image: "/timeline/si.svg",
-    slideImage: "/timeline/si-head.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Lecture on SVG animations",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Guided 200 students to create their first animated SVG using CSS/SMIL at PHP Workshop, SDC-SI",
-
-    slideImage: "/timeline/svg-lecture.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2017",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "1st position in Web Designing, IMSU",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Competed against 20+ teams for design and development of web project from scratch",
-    slideImage: "/timeline/ims-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Lecture on Javascript",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Guided 200 students for javascript fundamentals at Game Development workshop, SDC-SI",
-    slideImage: "/timeline/js-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "1st position in Web Design, ABES ACM",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Competed in web and graphic design challenge with 100+ participants.",
-    slideImage: "/timeline/abes-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Lecture on Web Technologies",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Guided 300+ students on getting started with web technologies like HTML/CSS and JS",
-    slideImage: "/timeline/web-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2016",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "1st position in Web Designing, IMSU",
-    size: ItemSize.SMALL,
-    subtitle: "Secured 1st prize in Web design challenge against 50+ teams",
-    slideImage: "/timeline/ims-16.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CONVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "UI/UX, Frontend Engineer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Started journey in SDC-SI, where I learnt the fundamentals of Frontend, UI/UX, Graphic design and more...",
-    image: "/timeline/si.svg",
-    slideImage: "/timeline/si-start.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2014",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Recognized Themer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Awarded as recognized themer,  Developed themes and ROMs for Xperia 2011 devices lineup with over 15k+ downloads. Featured on xda portal twice.",
-    image: "/timeline/xda.svg",
-    slideImage: "/timeline/xda-rt.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
+  }
 ];
 
 export type TimelineNodeV2 = CheckpointNode | BranchNode;
@@ -425,4 +246,4 @@ export interface BranchNode {
   type: NodeTypes.CONVERGE | NodeTypes.DIVERGE;
 }
 
-export const GTAG = "UA-163844688-1";
+// export const GTAG = "code";

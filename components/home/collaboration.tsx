@@ -92,8 +92,8 @@ const CollaborationSection = () => {
         willChange ? "will-change-opacity" : ""
       }`}
     >
-      Interested in <span className="text-strong font-bold">Collaboration</span>
-      ?
+      Ho Tuan Phat |{" "}
+      <span className="text-strong font-bold">Frontend Developer</span>
     </h1>
   );
 
