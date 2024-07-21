@@ -4,7 +4,7 @@ import Typed from "typed.js";
 import Image from "next/image";
 import { gsap, Linear } from "gsap";
 import Button, { ButtonTypes } from "../common/button";
-import HeroImage from "./hero-image";
+import ImageHero from "@/public/hero-image.png";
 
 const HERO_STYLES = {
   SECTION:
@@ -12,7 +12,7 @@ const HERO_STYLES = {
   CONTENT: "font-medium flex flex-col pt-32 md:pt-0 select-none",
   SOCIAL_LINK: "link hover:opacity-80 duration-300 md:mr-4 mr-2",
   BG_WRAPPER:
-    "absolute hero-bg right-0 md:bottom-0 bottom-8 -z-1 md:w-3/4 w-full scale-125 sm:scale-100 flex items-end",
+    "absolute hero-bg right-0 md:bottom-0 bottom-8 -z-1 md:w-1/2 w-full scale-125 flex items-end md:translate-y-[-100px]",
   TYPED_SPAN: "text-xl sm:text-2xl md:text-4xl seq",
 };
 
@@ -56,7 +56,12 @@ const HeroSection = React.memo(() => {
 
   const renderBackgroundImage = (): React.ReactNode => (
     <div className={HERO_STYLES.BG_WRAPPER} style={{ maxHeight: "650px" }}>
-      <HeroImage />
+      {/* <HeroImage /> */}
+      <Image
+        src={ImageHero}
+        style={{ transform: `rotateY(180deg)` }}
+        alt="hero image"
+      />
     </div>
   );
 
