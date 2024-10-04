@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "folio": "file:",
     "gsap": "3.8.0",
     "next": "12",
     "react": "^17.0.2",
