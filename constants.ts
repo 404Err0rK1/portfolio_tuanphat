@@ -84,12 +84,12 @@ export const PROJECTS: IProject[] = [
     tech: ["html", "javascript", "css", "blockchain", "metamask"],
   },
   {
-    name: "Shop Car",
-    image: "/projects/shop-car.png",
+    name: "ManaCinemalu Movie ",
+    image: "/projects/mana-cinemalu-movie.png",
     blurImage: "/projects/blur/dl-unify-blur.jpg",
-    description: "Built the application from zero to production : shop car",
+    description: "Built the application from zero to production  including the javascript fundamental, component, props, state management, react lifecycle, conditional rendering, redux-toolkit intergration, custom hooks...",
     gradient: ["#003052", "#167187"],
-    url: "https://car-shop-nextjs.vercel.app/",
+    url: "https://movie-app-mana-cinemalu.vercel.app/",
     tech: ["next", "typescript", "tailwind"],
   },
   {
