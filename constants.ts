@@ -54,16 +54,6 @@ export interface IProject {
 
 export const PROJECTS: IProject[] = [
   {
-    name: "Grocer App",
-    image: "/projects/grocer-app.png",
-    blurImage: "/projects/blur/figgen-blur.jpg",
-    description:
-      "This project aims to demonstrate my front-end skills providing a seamless online shopping experience for users looking to purchase groceries.",
-    gradient: ["#1F6582", "#1ABCFE"],
-    url: "https://grocer-go-app.vercel.app/",
-    tech: ["next", "typescript", "tailwind", "framer-motion", "material-ui"],
-  },
-  {
     name: "Ecommerce Food Website",
     image: "/projects/ecommerce-food-app.png",
     blurImage: "/projects/blur/myokr-blur.jpg",
@@ -72,6 +62,16 @@ export const PROJECTS: IProject[] = [
     gradient: ["#153BB9", "#0E2C8B"],
     url: "https://ecommerce-food-seven.vercel.app/",
     tech: ["next", "typescript", "tailwind", "mongodb", "firebase", "aws"],
+  },
+  {
+    name: "BachHoaX App",
+    image: "/projects/grocer-app.png",
+    blurImage: "/projects/blur/figgen-blur.jpg",
+    description:
+      "This project aims to demonstrate my front-end skills providing a seamless online shopping experience for users looking to purchase groceries.",
+    gradient: ["#1F6582", "#1ABCFE"],
+    url: "https://github.com/404Err0rK1/grocer_go_app",
+    tech: ["next", "typescript", "tailwind", "framer-motion", "material-ui"],
   },
   {
     name: "BlockchainDoc",
@@ -98,7 +98,7 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/ngx-quill-upload-blur.jpg",
     description: "The website is a sleek, user-friendly e-commerce platform dedicated to selling Apple’s Macbook line of laptops. ",
     gradient: ["#3A0000", "#771E1E"],
-    url: "https://github.com/404Err0rK1/Ecommerce-shop-apple.git",
+    url: "https://github.com/404Err0rK1",
     tech: ["next", "typescript", "tailwind","mongodb"],
   },
 ];
